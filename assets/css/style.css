@@ -4,7 +4,14 @@ body {
 }
 
 .bg-nav {
-  background-color: #f6f8fd;
+  background-color: rgba(246, 248, 253, 0.8);
+  transition: all 0.3s ease;
+}
+
+.navbar-blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .mt--2 {
