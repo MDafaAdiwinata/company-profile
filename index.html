@@ -473,6 +473,19 @@
       AOS.init();
     </script>
 
+    <!-- Script Internal -->
+    <script>    
+      const navbar = document.querySelector(".navbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 10) {
+          navbar.classList.add("navbar-blur");
+        } else {
+          navbar.classList.remove("navbar-blur");
+        }
+      });
+    </script>
+
     <!-- Popper and Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
